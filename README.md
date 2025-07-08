@@ -30,9 +30,17 @@ The interactive Power BI dashboard can be found [here](https://app.powerbi.com/l
 
 ### Dimensions
 - **`supplier`**: Identifies the source of products
+
+  
 - **`item_description`**: Describes the specific product
+
+  
 - **`item_code`**: Unique identifier for each product
+
+  
 - **`year`**: Year of transaction
+
+  
 - **`month`**: Month of transaction
 
 ---
