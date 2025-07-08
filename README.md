@@ -4,12 +4,14 @@
 This project investigates the disparity between retail demand and warehouse supply across multiple suppliers and product categories in the beverage industry. By analyzing over 300,000 transactional records, the objective is to identify gaps, inefficiencies, and opportunities for operational improvements in supply chain performance.
 The interactive Power BI dashboard can be found [here](https://app.powerbi.com/links/yE_LbM5bUR?ctid=d73c3455-2ff8-4748-95c8-611e0bf264e1&pbi_source=linkShare), and Kaggle notebook [here](https://www.kaggle.com/code/xiiaviiano/retail-demand-vs-warehouse-supply).
 
+![](https://github.com/AviianoXII/Retail_Demand_vs_Warehouse_Supply_Analysis/blob/main/IMG_4206.png)
+
+## Research Questions
 
 
 - How well does warehouse supply meet retail demand across different suppliers and time periods?
 - What are the top contributors to supply-demand imbalance?
-- Which items show the greatest sales gaps or overstocking/understocking trends?
-- What actionable steps can be taken to optimize inventory allocation and supplier performance?
+- Which items show the greatest sales gaps or overstocking/understocking 
 
 ---
 
@@ -74,7 +76,7 @@ The interactive Power BI dashboard can be found [here](https://app.powerbi.com/l
 
 ---
 
-## Author
+## 📫 Author
 
 **Name:** Karlon Mc Lean  
 [LinkedIn](https://www.linkedin.com/in/karlon-mc-lean-b613101b3/)
