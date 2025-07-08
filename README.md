@@ -59,20 +59,31 @@ The interactive Power BI dashboard can be found [here](https://app.powerbi.com/l
 
 ## ✅ Recommendations
 
-1. **Dynamic Replenishment Modeling**
-   - Use item-level `gap_ratio` and `sales_gap` trends to build predictive restocking models.
-   - This reduces overstocking and avoids missed sales due to understocking.
+### 1. **Dynamic Replenishment Modeling**
+- **Finding**: A significant portion of items (~176,000) were overstocked, while over 128,000 were understocked, indicating frequent mismatches between warehouse supply and retail demand.  
 
-2. **Supplier Performance Benchmarking**
-   - Rank suppliers based on their average `gap_ratio` and contribution to `sales_gap`.
-   - Use this to open performance reviews or renegotiations with consistently misaligned suppliers.
+- **Action**: Develop predictive restocking models using item-level `gap_ratio` and `sales_gap` trends to forecast demand more accurately.  
 
-3. **Item Prioritization**
-   - Focus inventory optimization efforts on the top 10 understocked items by `sales_gap`.
-   - These products represent high ROI for small improvements in supply alignment.
+- **Why This Matters**: Aligning warehouse supply with actual retail demand minimizes inventory holding costs and prevents lost sales due to understocking.  
 
-4. **Monthly Variance Controls**
-   - Implement tighter controls around warehouse stock delivery fluctuations across months to ensure more consistent alignment with retail patterns.
+
+---
+
+### 2. Supplier Performance Benchmarking
+- **Finding**: Certain suppliers, like **CORONA** and **HENEKEN**, frequently appear among the top contributors to sales gaps.  
+
+- **Action**: Rank suppliers based on average `gap_ratio` and total contribution to `sales_gap` to identify those with chronic mismatches.  
+
+- **Why This Matters**: Holding suppliers accountable improves upstream performance and fosters more reliable fulfillment planning.  
+
+---
+
+### 3. Item Prioritization
+- **Finding**: Some products consistently experience large understocking gaps, despite steady retail demand.  
+
+- **Action**: Prioritize inventory planning efforts on the top 10 understocked items by `sales_gap`.  
+
+- **Why This Matters**: Focusing on high-impact items delivers better ROI, as even small adjustments can significantly reduce lost sales and improve customer satisfaction.  
 
 ---
 
